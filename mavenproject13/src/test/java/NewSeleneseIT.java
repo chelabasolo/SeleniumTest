@@ -38,7 +38,8 @@ public class NewSeleneseIT {
   }
   @Test
   public void sampleapp2() {
-    System.setProperty("webdriver.chrome.driver","C:\\Users\\rbanas2\\Downloads\\chromedriver80\\chromedriver.exe");
+    //System.setProperty("webdriver.chrome.driver","C:\\Users\\rbanas2\\Downloads\\chromedriver80\\chromedriver.exe");
+    System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\chromedriver.exe");
     WebDriver driver = new ChromeDriver();
     driver.get("https://h5qts1hwccaarrahapcloud-approuter.cfapps.eu10.hana.ondemand.com/SAPCloudSAPCloud-1.0.0/index.html");
     /*driver.manage().window().setSize(new Dimension(1478, 824));
