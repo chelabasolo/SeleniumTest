@@ -16,7 +16,7 @@ public class NewSeleneseIT {
   }
   @Test
   public void sampleapp2() {
-       System.setProperty("webdriver.chrome.driver","C:\Program Files (x86)\Jenkins\workspace\\chromedriver.exe");	// <-- Change this path
+       System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\chromedriver.exe");	// <-- Change this path
        WebDriver driver = new ChromeDriver();
        String baseUrl = "https://experitest.com/free-trial/";
        String expectedTitle = "Free trial";
