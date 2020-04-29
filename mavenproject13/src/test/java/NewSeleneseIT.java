@@ -4,17 +4,14 @@ public class NewSeleneseIT {
   //private WebDriver driver;
   //private Map<String, Object> vars;
   //JavascriptExecutor js;
-  @Before
   public void setUp() {
     //driver = new ChromeDriver();
     //js = (JavascriptExecutor) driver;
     //vars = new HashMap<String, Object>();
   }
-  @After
   public void tearDown() {
     //driver.quit();
   }
-  @Test
   public void sampleapp2() {
        System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Jenkins\\workspace\\chromedriver.exe");	// <-- Change this path
        WebDriver driver = new ChromeDriver();
